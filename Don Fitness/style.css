@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Jomhuria&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Jomhuria", cursive;
+  padding: 0;
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 4rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+/* ************ NAV ************ */
+nav {
+  overflow: hidden;
+  background-color: #f3f3f3;
+  position: fixed;
+  width: 100%;
+  opacity: 0.4;
+}
+header li {
+  float: right;
+  font-size: 1.2em;
+}
+header li a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 5px 16px;
+}
+#logo {
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+  float: left;
+}
+/* ************ IMAGE  ************ */
+
+#imagePrincipale {
+  padding-top: 60px;
+  background: url(./media/muscu\ principal.jpg) no-repeat fixed 50% 50%;
+  background-size: cover;
+  height: 500px;
+}
+h1 {
+  font-family: "Jomhuria", cursive;
+  text-align: center;
+  color: antiquewhite;
+  font-size: 8em;
+  margin-top: 100px;
+  text-shadow: 1px 3px 2px black;
+}
+#premierTrait {
+  height: 1px;
+  width: 25%;
+  margin: -3px auto;
+  background-color: #f7f7f7;
+  box-shadow: 1px 3px 2px black;
+}
+h3 {
+  text-align: center;
+  color: antiquewhite;
+  font-size: 3em;
+  text-shadow: 1px 3px 2px black;
+}
+/* ************ PRESENTATION ************ */
+
+#presentation {
+  background-color: #ffffff;
+  padding: 10px 0px 100px 0;
+}
+#texteIntro {
+  padding: 0px 20%;
+}
+#prestations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px 10%;
+}
+.imagesPrestations h4 {
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  font-size: 1.8em;
+  margin: 15px;
+  font-weight: 300;
+}
+.imagesPrestations img {
+  border-radius: 50px;
+  box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.7);
+}
+.imagesPrestations img:hover {
+  opacity: 0.5;
+  transform: scale(1.05);
+  transition: 0.6s ease-in-out;
+}
+/* ************ Section / Fitness ************ */
+
+#fitness {
+  height: 1350px;
+  background-color: #d9d9d9;
+  padding: 1px 2%;
+}
+#fitness h2 {
+  padding-top: 0px;
+}
+#haut {
+  background: url(media/haut\ corp.jpg);
+}
+#bas {
+  background: url(media/jambes.jpg);
+}
+#abdo {
+  background: url(media/Abdo.jpg);
+}
+#cardio {
+  background: url(media/cardio.jpg);
+}
+#fitness li {
+  margin: 65px 100px 0 100px;
+  height: 226px;
+  width: 55%;
+  max-width: 550px;
+  float: left;
+  box-shadow: 12px 13px 9px 2px rgba(0, 0, 0, 0.678);
+}
+#fitness p {
+  height: 140px;
+  width: 160px;
+  background-color: #ffffff;
+  float: right;
+  margin: 0px -170px 0 0;
+  font-size: 2.5em;
+  text-align: center;
+  padding-top: 85px;
+  box-shadow: 12px 13px 9px 2px rgba(0, 0, 0, 0.678);
+}
+#fitness #bas,
+#fitness #cardio {
+  float: right;
+}
+#bas p,
+#cardio p {
+  float: left;
+  background-color: rgb(255, 255, 255);
+  margin-left: -180px;
+  box-shadow: 12px 13px 9px 2px rgba(0, 0, 0, 0.678);
+}
+/* *********** FOOTER/Contact ************ */
+
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px 0 10px 0;
+  text-align: center;
+}
+
+h2 {
+  text-decoration: underline overline #ffffff;
+}
+form {
+  margin: 0 auto;
+  max-width: 900px;
+}
+input,
+textarea,
+button {
+  border: none;
+  width: 55%;
+  padding: 8px 10px;
+  margin: 1px 0;
+  font-size: 1.2em;
+  font-family: "Jomhuria", cursive;
+  border-radius: 8px;
+}
+textarea {
+  height: 120px;
+}
+button {
+  font-size: 1em;
+  background-color: #fcfcfc;
+}
+button:hover {
+  background-color: #e55039;
+  color: #fdfdfd;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+#deuxiemeTrait {
+  height: 1px;
+  width: 75%;
+  background-color: #fafafa;
+  margin: 60px auto;
+}
+#copyrightEtIcons {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 0 10%;
+}
+#copyright {
+  width: 50%;
+  text-align: left;
+  color: #fffae1;
+}
+#icons {
+  width: 50%;
+  text-align: right;
+}
+#icons a {
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 1.3em;
+  color: #ffffff;
+}
+#icons a:hover {
+  transform: scale(1.5);
+  transition: 0.1s;
+}
